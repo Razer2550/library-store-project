@@ -182,10 +182,14 @@ body {
     background: rgba(255, 255, 255, 0.9);
     position: fixed;
     top: 0;
-    left: 0;
+    right: -105%;
     z-index: 10000;
     height: 100%;
     width: 100%;
+}
+
+.login-form-container.active {
+    right: 0;
 }
 
 .login-form-container form {
